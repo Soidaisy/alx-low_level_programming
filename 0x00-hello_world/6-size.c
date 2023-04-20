@@ -1,4 +1,4 @@
-task 6.
+
 #include <stdio.h>
 /**
 * main - Program that prints the size of various computer types

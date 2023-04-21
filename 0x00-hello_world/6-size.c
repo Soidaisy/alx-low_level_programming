@@ -2,7 +2,7 @@
 /**
 * main - Program that prints the size of various computer types
 *
-* Return :0 (success) 
+* Return :0(success) 
 */
 int main(void)
 { 
@@ -13,4 +13,3 @@ printf("Size of a long long int:%lu byte(s)\n", sizeof(long long int));
 printf("Size of a float:%lu bytes(s)\n", sizeof(float));
 return (0);
 }  
-

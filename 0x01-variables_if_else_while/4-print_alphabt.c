@@ -1,20 +1,24 @@
-#include<stdlib.h>
-#include<time.h>
 #include <stdio.h>
-*//
-*main -Prints alphabets without q and e
-*
-*Return:Always 0(Success)
-*/
+
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
+ */
 int main(void)
-int i;
-for (i=97; i<123; i++)
 {
-if (i !=101 &&i!113)
-{
-putchar(i);
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return 0
-}
+
 
